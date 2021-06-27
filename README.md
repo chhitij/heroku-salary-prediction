@@ -29,7 +29,7 @@
   ---
    #### Deployment over heuruku
 
-    * Add Procfile - > web:gunicorn app:main
+    * Add Procfile - > web: gunicorn fileName(main):appName(from file)
     * web: guincorn == > networking stuff
     * app:main --> pthon main.py Pass (platform depended)
     * install gunicorn in your env
