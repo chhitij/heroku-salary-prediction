@@ -50,4 +50,8 @@
     * winScp and conncet amazon instance get u_name and host name 
       * for getting host name click on ssh client,
         and click on authticate and slect pvt key what we saved for putty and connect 
+      * install python3
+      * for open file vi <fileName>
+      * add port(host=0,0,0,0 , port =8080 )
+      ecs :wq
 
