@@ -24,8 +24,8 @@
 ---
   ### Flask
   #### Note
-      * In Falsk is best for micro app personal
-      * Django is for production app industrial
+      * Falsk is best for micro app for personal uses
+      * Django is for production app industrial purpuse
   ---
    #### Deployment over heuruku
 
