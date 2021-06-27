@@ -1,4 +1,4 @@
-# Deployemnt Step
+# Salary Prediction Deployment over Heroku and AWS
 
 ---
 
@@ -23,16 +23,16 @@
 * pip install -r requirment.txt // for saving all the package in other system
 ---
 ###  Flask
-// In Falsk is best for micro app personal
+  Note:=> 
+    * In Falsk is best for micro app personal
 
-// Django is for production app industrial
-
+     * Django is for production app industrial
+  ---
    #### Deployment over heuruku
-   * Add Procfile - > web:gunicorn app:main
 
+   * Add Procfile - > web:gunicorn app:main
    * web: guincorn == > networking stuff
    * app:main --> pthon main.py Pass (platform depended)
-
    * install gunicorn in your env
    * create a requirement .txt file
    * create a file called Procfile
