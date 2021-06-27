@@ -38,9 +38,16 @@
     * upload all files over github
    ---
   #### Deployment with AWS
-
+      ##### For Window user
     * Download putty.org
     * Download winscp
     * amazon console - > launch a virtual machine
     * search ubuntu -> select free tire
     * select virtual env and save key and launch
+    * Select puttygen
+    * load .pem file
+    * save pvt file
+    * winScp and conncet amazon instance get u_name and host name 
+      * for getting host name click on ssh client,
+        and click on authticate and slect pvt key what we saved for putty and connect 
+
