@@ -54,4 +54,8 @@
       * for open file vi <fileName>
       * add port(host=0,0,0,0 , port =8080 )
       ecs :wq
+      * create sceruty group and add new group in inbound group
+      * inbound rule -> add all traffic
+      * click network interface -> sceurity groups -> change sceurity groups
+      go to instance and copy ssc and paste in usl and add : 8080
 
