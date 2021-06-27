@@ -1,34 +1,47 @@
+# Deployemnt Step
+
+---
+
 ### Create virtual envoirnment
 
-- tp create an env --conda create -n <env_name> <python_ver>
+* tp create an env --conda create -n <env_name> <python_ver>
 
-- eg conda create -n deployment python==3.7
+* eg conda create -n deployment python==3.7
 
-- conda activate <env_name>
+* conda activate <env_name>
 
-- install flask == > pip install flask
+* install flask == > pip install flask
 
-- // conda config --set ssl_verify no
+* conda config --set ssl_verify no
 
-- install sckitlearn -pip install sckit-learn
+* install sckitlearn -pip install sckit-learn
 
-- conda env list // getting all the envoirnment
+* conda env list // getting all the envoirnment
 
-- pip freeze > <fileName>requirment.txt</FileName>
+* pip freeze > <fileName>requirment.txt</FileName>
 
-- pip install -r requirment.txt // for saving all the package in other system
-
+* pip install -r requirment.txt // for saving all the package in other system
+---
+###  Flask
 // In Falsk is best for micro app personal
 
 // Django is for production app industrial
 
-- for deployment over heuruku
-  // Add Procfile - > web:gunicorn app:main
+   #### Deployment over heuruku
+   * Add Procfile - > web:gunicorn app:main
 
-  - web: guincorn == > networking stuff
-  - app:main --> pthon main.py Pass (platform depended)
+   * web: guincorn == > networking stuff
+   * app:main --> pthon main.py Pass (platform depended)
 
-  install gunicorn in your env
-  create a requirement .txt file
-  create a file called Procfile
-  upload all files over github
+   * install gunicorn in your env
+   * create a requirement .txt file
+   * create a file called Procfile
+   * upload all files over github
+   ---
+    #### Deployment with AWS
+
+    * Download putty.org
+    * Download winscp
+    * amazon console - > launch a virtual machine
+    * search ubuntu -> select free tire
+    * select virtual env and save key and launch
