@@ -2,6 +2,8 @@
 
 ---
 
+link : https://ml-emp-salary-prediction.herokuapp.com/
+
 ### Create virtual envoirnment
 
 * tp create an env --conda create -n <env_name> <python_ver>
